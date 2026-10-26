@@ -11,7 +11,7 @@ const servidor = http.createServer((pedido, resposta) => {
   if (rota === "/") {
     conteudo = `
       <h1>Meu projeto de ADS</h1>
-      <p>Aplicação de Thiago para a disciplina de Desenvolvimento de Software em Nuvem.</p>
+      <p>aplicaçao.</p>
     `;
   } else if (rota === "/sobre") {
     conteudo = `
